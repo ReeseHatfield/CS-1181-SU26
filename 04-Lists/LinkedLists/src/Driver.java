@@ -58,5 +58,30 @@ public class Driver {
     }
 
 
+    // we want a way of charactering this function
+    // divorced from actual speed
+    // count operations
+    // O(n)
+
+    public static void foo(int n){
+
+        // 1
+        System.out.println("Hello world");
+
+        // 1
+        int sum = 0;
+
+
+        // 1
+        for(int i = 0; i < n; i++){
+            sum += i;
+        }
+        // 3 * n
+
+        // 1
+        System.out.println(sum);
+    }
+
+
 
 }

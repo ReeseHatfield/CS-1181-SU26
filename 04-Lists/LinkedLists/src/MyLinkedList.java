@@ -3,6 +3,7 @@ public class MyLinkedList<T> {
     private Node<T> head;
 
     
+    // O(n)
     public void add(T elemToAdd){
         Node<T> addMe = new Node<>(elemToAdd);
 
@@ -21,6 +22,22 @@ public class MyLinkedList<T> {
 
     }
 
+    // O(1)
+    public void prepend(T elemToAdd){
+
+    }
+
+    // a function would take O(n^2)
+    public void doThing(){
+        // pretend this was the real size
+        int size = 10;
+        for(int i = 0; i < size; i ++){
+            for(int j = 0; j < size; j++){
+                System.out.println("hello");
+            }
+        }
+    }
+
     public void printList(){
         Node<T> current = head;
 
@@ -31,6 +48,7 @@ public class MyLinkedList<T> {
         }
     }
 
+    // O(n)
     public T get(int index){
 
         Node<T> current = this.head;
