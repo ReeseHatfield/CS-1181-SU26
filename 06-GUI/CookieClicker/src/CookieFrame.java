@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class CookieFrame  extends JFrame{
+public class CookieFrame extends JFrame{
 
     private JPanel root = new JPanel();
 
