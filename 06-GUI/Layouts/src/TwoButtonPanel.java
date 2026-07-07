@@ -15,6 +15,8 @@ public class TwoButtonPanel extends JPanel{
         this.setLayout(new GridLayout(1, 2));
 
         this.add(new JButton("Button 1"));
+
+        
         this.add(new JButton("Button 2"));
     }
 }
