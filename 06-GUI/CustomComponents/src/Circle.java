@@ -56,5 +56,12 @@ public class Circle extends JComponent {
         });
         t.start();
 
+
+        // Timer t = new Timer(30_000, e ->{
+        //     parent.remove(label) // may be different
+        //     parent.repaint()
+        // })
+        // t.setRepeats(false)
+        // t.start()
     }
 }
