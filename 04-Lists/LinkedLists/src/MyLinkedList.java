@@ -71,7 +71,5 @@ public class MyLinkedList<T> {
         addMe.next = current.next;
         current.next = addMe;
 
-
-
     }
 }
