@@ -7,12 +7,15 @@ public class VolatileExample {
         Thread t1 = new Thread(() -> {
             while(keepRunning){
                 // System.out.println("I am still running");
-                IO.print("still running");
+                // IO.print("still running");
+
             }
 
             System.out.println("Finished running");
         });
         t1.start();
+
+        
 
 
         Thread.sleep(1000);
